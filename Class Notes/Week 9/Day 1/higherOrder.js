@@ -1,4 +1,4 @@
-A callback is a function which can be passed as parameter to other function. See the example below.
+// git A callback is a function which can be passed as parameter to other function. See the example below.
 
 // a callback function, the name of the function could be any name
 const callback = (n) => {
@@ -87,3 +87,13 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log(sum);
+
+
+
+// //Examples:
+// const callBack = (n) =>{
+//   return n * 2
+// }
+
+// //This function woll used the callback
+// const callBack
