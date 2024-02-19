@@ -1,4 +1,4 @@
-# Functions With Global Variables
+<!-- # Functions With Global Variables
 
 ### Setup
 
@@ -45,3 +45,10 @@ Now let's make these variables useful by writing some functions!
 * Create a function named  `beNice` and have it change the value of greeting to the string 'hello' plus your name using the value of the variable `firstName`. You can include other characters if you wish to make it look like a nice sentence.
 * Create a function named  `changeName` and have it change the value of `firstName` to the string 'Danger'.
 * Create a function named  `hangUp` and have it change the value of `callStatus` to the string 'call ended'.
+ -->
+
+
+for (let i = 5; i > 0; i--){
+console.log('loop' - i);
+<!-- if (i === 3) break; -->
+}

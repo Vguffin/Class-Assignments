@@ -1,0 +1,109 @@
+// forEach is 
+// map is 
+// filter is
+// reduce is 
+
+
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: ' ' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
+]
+
+
+// Explain the difference between forEach, map, filter, and reduce.
+forEach() executes the given function, iterating through the elements of an array.
+
+map() iterates and modifies an array, implementing the given function.
+
+filter() filters the elements of an array by the given condition at the parameter.
+
+reduce() executes certain function, running through element by element in an array and returning a single value.
+// Define a callback function before you use it in forEach, map, filter or reduce.
+//function declaration
+countries.forEach(function(country) {
+  console.log(country);
+})
+
+//arrow function implicit return
+countries.forEach((country) => console.log(country));
+// Use forEach to console.log each country in the countries array.
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+countries.forEach(country => {
+    console.log(country);
+});
+
+// Use forEach to console.log each name in the names array.
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook'];
+names.forEach(name => {
+    console.log(name);
+});
+
+
+// Use forEach to console.log each number in the numbers array.
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+numbers.forEach(number => {
+    console.log(number);
+});
+
+
+// Use map to create a new array by changing each country to uppercase in the countries array.
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+const uppercaseCountries = countries.map(country => country.toUpperCase());
+console.log(uppercaseCountries);
+
+
+// Use map to create an array of countries length from countries array.
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+const countryNameLengths = countries.map(country => country.length);
+console.log(countryNameLengths);
+
+// Use map to create a new array by changing each number to square in the numbers array
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const squaredNumbers = numbers.map(num => num ** 2);
+console.log(squaredNumbers);
+
+
+// Use map to change to each name to uppercase in the names array
+
+// Use map to map the products array to its corresponding prices.
+const listOfPrice = products.map(product=>product.price)
+
+// Use filter to filter out countries containing land.
+const countriesContainingLand = countries.filter((country) => country.includes('land'))
+
+// Use filter to filter out countries having six character.
+const countriesContainingSix = countries.filter((country) => country.includes('six characters'))
+
+// Use filter to filter out countries containing six letters and more in the country array.
+const countriesContainingSixandMore = countries.filter((country) => country.includes('six letters and more'))
+// Use filter to filter out country start with 'E';
+const countriesStartingWithE = countries.filter((country) => country.includes('start with 'E''))
+// Use filter to filter out only prices with values.
+const prices = countries.filter((price) => price.includes('values'))
+
+
+// Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
+function getStringLists(arr){
+  return stringItems
+}
+
+
+// Use reduce to sum all the numbers in the numbers array.
+const sum = numbers.reduce((prev, cur) => pref + cur, 0)
+
+
+// Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
+const sum = numbers.reduce((acc, cur) => acc + cur, 0)
+
+
+// Explain the difference between some and every
+some() checks if the array has at least one element that satisfies the given condition.
+
+every() checks if all the elements of the array satisfy the condition.

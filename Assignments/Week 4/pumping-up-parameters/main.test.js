@@ -3,7 +3,11 @@
 Your code goes below.
 
 */
-
+let x =
+let y =
+let z =
+let name
+let greeting
 
 
 

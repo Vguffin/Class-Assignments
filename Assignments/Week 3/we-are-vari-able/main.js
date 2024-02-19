@@ -1,6 +1,17 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
+let myFirstName ="Victoria"
+let myLastName ="Guffin"
+let myFavoriteCeleb ="Beyonce"
+let mySentence ="I am the best."
+let myLuckyNum = 333
+let myAge = 25
+let myHeight = 5
+let myFavoriteYear = 2024
+let mySum = 5 + 2317 + 36
+let myProduct = 232 * 43 / 2 + 4
+let myHeightAndAge = 30
 
 
 /*********************************************************************************************************************

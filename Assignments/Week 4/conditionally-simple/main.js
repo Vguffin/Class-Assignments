@@ -1,8 +1,25 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong(){
+  return  Long = "Thats a long string!"
+}
 
+function isItMedium(){
+  return  Long = "Thats a regular sized string!"
+}
 
+function isItShort(){
+  return  Long = "Thats a small string!"
+}
+
+function howLongIsMyString(){
+  return  Long = "Thats a long string!"
+}
+
+function personsHeight(){
+  return 
+}
 
 
 /**********************************
