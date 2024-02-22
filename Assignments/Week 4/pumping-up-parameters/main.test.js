@@ -3,11 +3,27 @@
 Your code goes below.
 
 */
-let x =
-let y =
-let z =
-let name
-let greeting
+let x = 3
+let y = 10
+let z = 5
+let name = "Victoria"
+let greeting = "HEY!"
+
+
+function multiply(){
+  x = x*x
+}
+function modYBy(){
+y = y/y
+}
+
+function opposite(){
+z= -5 
+}
+
+const makeFullName = "name"
+
+const yellAt =" greeting , !"
 
 
 
